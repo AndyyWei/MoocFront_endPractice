@@ -1,0 +1,163 @@
+# MoocFront_endPractice
+These codes were my front end practices. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3-3Practice</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+			color: #fff;
+		}
+		.nav a:hover{
+			color: orange;
+		}
+		.header{
+			width: 100%;
+			height: 100px;
+			background: #000;
+			float: left;
+		}
+		.logo{
+			float: left;
+		}
+		.nav{
+			float: right;
+			line-height: 100px;
+			text-align: center;
+		}
+		.nav li{
+			float: left;
+		}
+		.nav li span{
+			margin-right: 20px;
+		}
+		.container{
+			height: 500px;
+			padding:0 300px 0 400px;
+		}
+		.middle{
+			width: 100%;
+			height: 500px;
+			background: #f99;
+			float: left;
+			position: relative;
+		}
+		.img-container{
+			width: 600px;
+			margin:50px auto 0 auto;
+		}
+		.left{
+			width: 400px;
+			height: 500px;
+			background:#ffc;
+			float: left;
+			margin-left: -100%;
+			position: relative;
+			left: -400px;
+			line-height: 50px;
+		}
+		.left-content{
+			width: 80%;
+			margin:50px auto  0 auto;
+		}
+		.left span{
+			background: #f96;
+			margin-right: 10px;
+		}
+		.right{
+			width: 300px;
+			height: 500px;
+			background: #9cc;
+			float: left;
+			margin-left: -300px;
+			position: relative;
+			right: -300px;
+		}
+		.login{
+			width: 80%;
+			margin:50px auto 0 auto;
+		}
+		input,button{
+			margin-top: 20px;
+			height: 50px;
+			width: 240px;
+		}
+		button{
+			background: red;
+			color: #fff;
+			font-size: 20px;
+		}
+		.footer{
+			width: 100%;
+			height: 100px;
+			background: #000;
+			color: #fff;
+			line-height: 100px;
+			text-align: center;
+			float: left;
+		}
+		.footer span{
+			margin-right: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="http://climg.mukewang.com/590037f600016ce303000100.png" alt="">
+		</div>
+		<div class="nav">
+			<ul>
+				<li><span><a href="#">课程</a></span></li>
+				<li><span><a href="#">职业路径</a></span></li>
+				<li><span><a href="#">实战</a></span></li>
+				<li><span><a href="#">猿问</a></span></li>
+				<li><span><a href="#">手记</a></span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="middle">
+			<div class="img-container"><img src="http://climg.mukewang.com/590037e00001fab706000400.jpg" alt="这是一张图片"></div>
+		</div>
+		<div class="left">
+			<div class="left-content">
+				<h1>课程推荐</h1>
+				<ul>
+					<li><span>职业路径</span>HTML5与CSS3实现动态网页</li>
+					<li><span>职业路径</span>零基础入门Android语法与界面</li>
+					<li><span>职业路径</span>iOS基础语法与常用控件</li>
+					<li><span>职业路径</span>PHP入门开发</li>
+					<li><span>职业路径</span>Java入门开发</li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<div class="login">
+				<h1>登录</h1>
+				<form>
+					<input type="text" name="username" placeholder="&nbsp;请输入您的手机号/邮箱账号">
+					<br>
+					<input type="text" name="psd" placeholder="&nbsp;6-16位，区分大小写，不能用空格">
+				</form>
+				<button type="button">登&nbsp;录</button>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<span><a href="#">网站首页</a></span>
+		<span><a href="#">企业合作</a></span>
+		<span><a href="#">人才招聘</a></span>
+		<span><a href="#">联系我们</a></span>
+		<span><a href="#">常见问题</a></span>
+		<span><a href="#">友情链接</a></span>
+	</div>
+</body>
+</html>
